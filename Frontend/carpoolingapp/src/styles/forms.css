@@ -1,0 +1,382 @@
+.createForm {
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 24%;
+    border-radius: 10px;
+    display: block;
+}
+
+.createForm .header {
+    width: 40%;
+    background-color: #0a91ca;
+    height: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -18px;
+}
+
+.createForm .header h3 {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.createForm .column {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 90%;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.createForm label {
+    color: black;
+    font-weight: lighter;
+    display: block;
+    text-align: center;
+}
+
+.createFormField .select {
+    background-color: white;
+    border: 1px solid #0a91ca;
+    padding: 5px;
+    width: 100%;
+    border-radius: 2px;
+    appearance: none;
+    height: 40px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.select-text {
+    text-align: center;
+}
+
+.createFormField .button {
+    background-color: #0a91ca;
+    border: none;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    color: white;
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+}
+
+.createFormField button:hover {
+    background-color: #07aff7;
+    cursor: pointer;
+}
+
+.calendarContainer {
+    margin-top: 20px;
+}
+
+.calendar input[type=text] {
+    background-color: white;
+    border: 2px solid #0a91ca;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    appearance: none;
+    height: 40px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.calendar input::placeholder {
+    font-size: 1.2em;
+}
+
+textarea {
+    width: 100%;
+    border: 2px solid #0a91ca;
+    border-radius: 5px;
+    color: black;
+    font-weight: lighter;
+    height: 150px;
+}
+
+.control {
+    font-family: arial;
+    display: block;
+    position: relative;
+    margin-bottom: 5px;
+    padding-top: 3px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.control input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.control_indicator {
+    position: absolute;
+    top: 2px;
+    left: 30px;
+    height: 20px;
+    width: 20px;
+    background: white;
+    border: 1px solid #0a91ca;
+}
+
+.createFormField i {
+    color: #0a91ca;
+    font-size: 3em;
+}
+
+.control:hover input~.control_indicator, .control input:focus~.control_indicator {
+    background: white;
+    transition: 0.3s;
+}
+
+.control input:checked~.control_indicator {
+    background: #0a91ca;
+    transition: 0.3s;
+}
+
+.control input:disabled~.control_indicator {
+    background: white;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.control_indicator:after {
+    box-sizing: unset;
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+.control input:checked~.control_indicator:after {
+    display: block;
+}
+
+.control-checkbox .control_indicator:after {
+    left: 8px;
+    top: 4px;
+    width: 3px;
+    height: 8px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.control-checkbox input:disabled~.control_indicator:after {
+    border-color: white;
+}
+
+.createFormField {
+    margin: 10px auto;
+    display: block;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+}
+
+.centeredForm {
+    width: 60%;
+    height: 80%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.centeredForm input {
+    width: 80%;
+    height: 8%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 2px solid #0a91ca;
+    margin-bottom: 4%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.1em;
+}
+
+.centeredForm input::placeholder {
+    text-align: center;
+}
+
+.centeredForm i {
+    color: #0a91ca;
+    font-size: 3em;
+}
+
+.send {
+    display: block;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 6%;
+    bottom: -15px;
+    left: 30%;
+    background-color: #0a91ca;
+    color: white;
+    font-weight: lighter;
+    border: none;
+    font-size: 1.1em;
+}
+
+.send:hover {
+    background-color: #07aff7;
+    cursor: pointer;
+}
+
+.controlRight {
+    left: 23% !important;
+}
+
+.exception {
+    color: #0a91ca;
+}
+
+.signUpForm {
+    width: 70%;
+    margin-top: 1%;
+    height: 80%;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 24%;
+    border-radius: 10px;
+    float: left;
+}
+
+.loginForm{
+    width: 40%;
+    margin-top: 3%;
+    height: 50%;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 39%;
+    border-radius: 10px;
+    float: left;
+    display: block; 
+}
+
+.myForm .RegisterCol {
+    width: 50%;
+    float: left;
+    margin-top: 8%;
+    height: 90%;
+}
+
+.myLoginForm .loginCol{
+    width: 30%;
+    margin-top: 8%;
+    height: 90%;
+}
+
+.myLoginForm{
+    height: 50%;
+}
+
+.myLoginForm label{
+    color: black;
+    font-weight: lighter;
+    display: block;
+    text-align: center;
+}
+
+.myForm {
+    height: 70%;
+}
+.myForm label{
+    color: black;
+    font-weight: lighter;
+    display: block;
+    text-align: center;
+ 
+}
+
+.loginCol label{
+    margin-top: 9%;
+    color: black;
+    display: block;
+    text-align: center;
+    font-weight: lighter;
+    font-size:1.2em;
+    
+}
+
+.loginCol input{
+
+    margin-left: auto;
+    margin-bottom: 5%;
+    margin-right: auto;
+    width: 60%;
+    height: 50px;
+    display: block;
+
+    border-radius: 5px;
+    border: 2px solid #0a91ca;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.1em;
+    
+}
+
+.RegisterCol label {
+    color: black;
+    display: block;
+    text-align: center;
+    font-weight: lighter;
+    font-size:1.1em;
+    
+}
+
+.RegisterCol input {
+
+    margin-left: auto;
+    margin-bottom: 10%;
+    margin-right: auto;
+    width: 90%;
+    height: 10%;
+    display: block;
+
+    border-radius: 5px;
+    border: 2px solid #0a91ca;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.1em;
+}
+
+.myHeader {
+    color: whitesmoke;
+    width: 40%;
+    background-color: #0a91ca;
+    height: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -18px;
+}
+
+.myHeader h3 {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-weight: lighter;
+}
+.loginForm .send{
+    width: 45%;
+    height: 9%;
+    left: 27%;
+}

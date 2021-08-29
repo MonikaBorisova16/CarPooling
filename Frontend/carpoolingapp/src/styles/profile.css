@@ -1,0 +1,146 @@
+
+.createForm .top
+{
+    width:100%;
+    height: 30%;
+    border-bottom: 2px solid #0a91ca;
+}
+
+.createForm .bottom
+{
+    width:100%;
+    height:65%;
+}
+
+.createForm .profile-picture-container
+{
+    float: left;
+    width: 25%;
+    height: 100%;
+    padding: 15px;
+}
+
+.information
+{
+    float: left;
+    width:25%;
+    height:100%;
+    padding:10px
+}
+
+
+
+.information h5 
+{
+    color: black;
+    font-weight: lighter;
+    margin: 0px;
+}
+
+.information h3
+{
+    color: #0a91ca;
+    margin: 0px;
+    font-size: 1.1em;
+    margin-bottom: 4px;
+}
+
+
+.ratings
+{
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 25px;
+}
+
+.ratings h1
+{
+    color:#0a91ca;
+    font-size: 4em;
+    margin:0px;
+    margin-bottom: 5px;
+}
+
+.ratings h3
+{
+    color: black;
+    margin: 0px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.createForm .profile-picture
+{
+    display: block;
+    float:right;
+    object-fit: cover;
+    border: 2px solid #0a91ca;
+    -webkit-box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.75);
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+}
+
+.bottomButton
+{
+    width:40%;
+    height: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+    border: none;
+    background-color: #0a91ca;
+    color: white;
+    font-size: 1.1em;
+    font-weight: lighter;
+    display: block;
+}
+
+.bottomButton:hover
+{
+    cursor: pointer;
+    background-color: #07aff7;
+}
+
+.submit
+{
+    color: white;
+    background-color: #0a91ca;
+    width:30%;
+    height: 40px;
+    border: none;
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    display: inline-block;
+    padding: 8px 12px;
+    width: 80%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #0a91ca;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mt {
+    margin-top: 5%;
+}
+
+.nothing
+{
+    color: #777777;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-top: 2px solid #0a91ca;
+    border-bottom: 2px solid #0a91ca;
+    border-right: 2px solid #0a91ca;
+}

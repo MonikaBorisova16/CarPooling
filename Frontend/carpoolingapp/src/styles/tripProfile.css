@@ -1,0 +1,400 @@
+.date
+{
+    background-color: white;
+    border: 2px solid #0a91ca;
+    width: 15%;
+    height: 80%;
+    border-radius: 15px;
+    float: right;
+    margin: 1% 5%;
+    box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+}
+
+.date .month
+{
+    width:100%;
+    height: 30%;
+    background-color: #0a91ca;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    padding: 6%;
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+.day
+{
+    width:100%;
+    height: 50%;
+    background-color: white;
+    text-align: center;
+    font-size:3em;
+    padding: 3%;
+    color: black;
+    font-weight: bolder;
+}
+
+.time
+{
+    text-align: center;
+    width:100%;
+    height: 20%;
+    color: black;
+    border-top: 2px solid #0a91ca;
+    padding: 2%;
+}
+
+.top .locations
+{
+    width:15%;
+    height: 100%;
+    float: right;
+    margin: 0 10%;
+    text-align: center; 
+    padding-top: 1%;
+}
+
+.top .tripStatus
+{
+    float: right;
+    text-align: center;
+    padding-top:4%;
+}
+
+.tripStatus h4
+{
+    font-weight: lighter;
+    font-size: 1.3em;
+    margin-top: 5%;
+}
+
+.tripStatus h2
+{
+    color: #0a91ca;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.locations h2,h4
+{
+    color: black;
+    margin: 0px;
+}
+
+.locations h4{
+    font-weight: lighter;
+    font-size: 1.3em;
+    margin-top: 5%;
+}
+
+.locations h2{
+    color: #0a91ca;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.top .driver
+{
+    width: 30%;
+    height: 100%;
+    margin-left: 5%;
+    padding: 1%;
+}
+
+.driver h4{
+    margin: 0px;
+    color: #0a91ca;
+    font-size: 1.5em;
+}
+
+.driver h5{
+    margin: 2% 0;
+    color: black;
+    font-weight: lighter;
+    font-size: 1.1em;
+}
+
+.driver .profileButton
+{
+    margin-top: 8%;
+    background-color: #0a91ca;
+    width: 40%;
+    height:20%;
+    color: white;
+    border: none;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+.driver .profileButton:hover
+{
+    background-color: #07aff7;
+    cursor: pointer;
+}
+
+.driverInfo
+{
+    float: right;
+}
+
+.bottom .info
+{
+    width: 25%;
+    height: 100%;
+    padding: 1% 2%;
+    float: left;
+}
+
+.info h3{
+    color: black;
+    margin: 0;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+.info h2{
+    color: #0a91ca;
+    margin: 0;
+    font-size: 1.3em;
+}
+
+.bottom .bottom-right
+{
+    float: left;
+    width:75%;
+    height:100%;
+}
+
+.bottom-right .right-top
+{
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid #07aff7;
+}
+
+.bottom-right .right-bottom
+{
+    width: 100%;
+    height: 80%;
+}
+
+.right-top .message
+{
+    width: 80%;
+    height: 100%;
+    float: left;
+    padding: 1%;
+    overflow: scroll;
+}
+
+.message h3
+{   
+    font-size: 1.1em;
+    color: #0a91ca;
+    margin:0;
+    text-align: center;
+}
+
+.message p
+{
+    color: black;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.right-top .status
+{
+    width:20%;
+    height:100%;
+    float:left;
+    text-align: center;
+    padding: 1% 1%;
+}
+
+.status h3
+{
+    color: black;
+    font-weight: lighter;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.status h1
+{
+    color: #0a91ca;
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.commentHeading
+{
+    font-size: 1.1em;
+    color: #0a91ca;
+    text-align: center;
+    margin:1% 0;
+}
+
+
+
+.addComment
+{
+    width: 90%;
+    height: 20%;
+    margin: 1% auto;
+}
+
+.addComment textarea
+{
+    width: 80%;
+    height: 100%;
+    margin: 0;
+    display: block;
+    float:left
+}
+
+.addComment .sendComment
+{
+    width: 20%;
+    margin:0px;
+    font-size: 1.1em;
+    font-weight: lighter;
+    display: block;
+    height: 100%;
+    float: left;
+}
+
+.comments
+{
+    width:100%;
+    height: 60%;
+}
+
+.comments .comment{
+    width: 90%;
+    height: 30%;
+    margin: 1% auto;
+    
+}
+
+.comment img{
+    width:54px;
+    height:54px;
+    margin-left: 1%;
+    margin-top: 1px;
+    margin-right: 1%;
+    border-radius: 5px;
+    border: 2px solid #07aff7;
+    object-fit: cover;
+    float:left;
+}
+
+.comment-head > h4
+{
+    font-size: 1em;
+    float:left;
+    color: #07aff7;
+}
+
+.comment-body
+{
+    height:70%;
+    width:80%;
+    float: left;
+}
+
+.comment-head
+{
+    width:80%;
+    height:30%;
+    float: left;
+}
+
+.comment-head > h6
+{
+    margin: 4px 5px;
+    color: rgba(0,0,0,.4);
+    float: left;
+}
+
+.comment-body p{
+    display: block;
+    margin: 0px;
+    float: left;   
+    font-weight: lighter;
+    color: black; 
+}
+
+.noComments
+{
+    color: #777777;
+    text-align: center;
+}
+
+.leftButton
+{
+    width: 30%;
+    height: 6%;
+    position: absolute;
+    bottom: -20px;
+    left: 20%;
+    font-size: 1.1em;
+    border: none;
+    background-color:#0a91ca;
+    color: white;
+    font-weight: lighter;
+}
+
+.modalButton
+{
+    width:40%;
+    height: 40px;
+    border: none;
+    background-color: #0a91ca;
+    color: white;
+    margin: 5px 2px;
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+.modalButton:hover
+{
+    background-color: #07aff7;
+    cursor: pointer;
+}
+
+.rightButton
+{
+    width: 30%;
+    font-size: 1.1em;
+    height: 6%;
+    position: absolute;
+    bottom: -20px;
+    left: 51%;
+    border: none;
+    background-color:#0a91ca;
+    color: white;
+    font-weight: lighter;
+}
+
+.rightButton:disabled
+{
+    background-color: #777777;
+}
+
+.rightButton:disabled:hover
+{
+    background-color: #777777;
+    cursor: default;
+}
+
+.leftButton:hover{
+    background-color:#07aff7;
+    cursor: pointer;
+}
+
+.rightButton:hover{
+    background-color: #07aff7;
+    cursor: pointer;
+}

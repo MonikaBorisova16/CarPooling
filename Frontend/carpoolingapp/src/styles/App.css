@@ -1,0 +1,120 @@
+body{
+  background: url("../images/body-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  color: white;
+}
+
+.App__Aside {
+  width:82%;
+  background-color:rgba(255, 255, 255, 0);
+}
+
+.App__Aside-Left
+{
+  width: 18%;
+}
+
+.App__Form {
+  width: 60%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: rgba(46, 65, 88, 0.877);
+  padding: 10px 40px;
+  overflow: hidden;
+  height: 100vh;
+}
+
+
+.PageSwitcher {
+  display: block;
+  width: 37%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.PageSwitcher__Item {
+  background-color:whitesmoke;
+  color: #0a91ca;
+  /* text-shadow: 2px 2px 3px darkslategrey; */
+  text-transform: uppercase;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: .9em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+
+}
+
+.PageSwitcher__Item--Active {
+  background-color: #0a91ca;
+  color: white;
+  border: 1px solid #0a91ca;
+}
+
+.PageSwitcher__Item:hover:not(.PageSwitcher__Item--Active)
+{
+  border: 1px solid #0a91ca;
+}
+
+.spnc{
+  text-align: center !important;
+}
+
+.PageSwitcher__Item:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.PageSwitcher__Item:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.FormFields
+{
+height: 100vh;
+position: relative;
+}
+.FormFieldButton{
+  height:15%;
+  display: block;
+  width: 60%;
+  margin: 8% auto;
+}
+.FormField__Link {
+  color: #0a91ca;
+  text-decoration: none;
+  margin-bottom: 3%;
+  position: absolute;
+  bottom: 23px;
+  left: 35%;
+  border-bottom: 1.5px solid #4ec1f3;;
+  border-radius: 10px;
+  width: 30%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.FormField__Link:hover{
+  color: black;
+  border-bottom:1.5px solid #4ec1f3;
+
+} 
+
+
+

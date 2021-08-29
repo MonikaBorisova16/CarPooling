@@ -1,0 +1,51 @@
+
+
+.bottom table{
+    width: 100%;
+}
+
+.bottom tr{
+    width: 100%;
+    height: 45px; 
+}
+
+.bottom th, td {
+    width: 18%;
+    color: black;
+    text-align: center;
+}
+
+
+.bottom th{
+    font-weight: lighter;
+    position: sticky;
+    top: -2px;
+    background-color: white;
+    border-bottom: 1px solid #07aff7;
+}
+
+.bottom button{
+    color: white;
+    background-color: #0a91ca;
+    width: 80%;
+    height: 30px;
+    border: none;
+}
+
+.bottom button:hover
+{
+    background-color: #07aff7;
+    cursor: pointer;
+}
+
+.bottom .visible-scroll
+{
+    overflow: scroll;
+    scrollbar-width: 20px !important;
+}
+
+.bottom .small
+{
+    width:10% !important;
+}
+

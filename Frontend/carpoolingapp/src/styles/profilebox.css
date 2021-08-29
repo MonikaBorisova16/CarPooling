@@ -1,0 +1,97 @@
+.profilebox
+{
+    position: relative;
+    width:100%;
+    height:0;
+    padding-bottom: 110%;
+}
+
+.profilebox img{
+    object-fit: cover;
+    display: block;
+    width:150px;
+    height:150px;
+    border: 2px solid #0a91ca;
+    border-radius: 5%;
+    margin:0 auto 0 auto;
+    -webkit-box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.75);
+}
+
+.profilebox .notifications
+{
+    width:24px;
+    height: 24px;
+    border-radius: 50%;
+    position: absolute;
+    border: none;
+    -webkit-box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.75);
+    color: white;
+    font-weight: lighter;
+    padding:none;
+    background-color: red;
+    top:140px;
+    right:50px;
+}
+
+.profilebox p
+{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.6em;
+    margin:4%;
+    font-weight: lighter;
+}
+
+.profilebox h3{
+    font-weight: lighter;
+    text-align: center;
+    margin: 4px auto;
+}
+
+.rating
+{
+    display: block;
+    width:57%;
+    height:30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.notification
+{
+    width:90%;
+    border-radius: 10px;
+    height:20%;
+    margin:1% auto;
+    border:2px solid #0a91ca;
+    padding: 1%;
+}
+
+.notification:hover{
+    background-color: #0a91ca;
+    cursor: pointer;
+    color: white;
+}
+
+.noStyling
+{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+
+.newNotification
+{
+    background-color: red;
+    position: absolute;
+    width: 6%;
+    height:3%;
+    font-size: 0.7em;
+    color:white;
+}
+
+
