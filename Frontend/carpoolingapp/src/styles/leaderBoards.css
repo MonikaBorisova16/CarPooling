@@ -1,0 +1,51 @@
+.lb{
+    margin-top: 0%;   
+}
+
+.root {
+    margin-top:0%;
+    width: 100% !important;
+    overflow-x: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.table {
+    width:100% !important
+} 
+.img {
+    width: 30px !important;
+    height: 30px!important;
+    border-radius: 50%;
+    float: left;
+    margin: auto 10%;
+}
+.num
+{
+    width: 1%
+}
+
+.ratingRow{
+    width: 10%
+}
+.button{
+    background-color: #0a91ca;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    width: 70%;
+    height: 30px;
+    margin-top: 1px; 
+}
+.button:hover {
+    background-color: #07aff7;
+    color: white;
+    cursor: pointer;
+  }
+.padding-top{
+    padding-top:0%;
+}
+.pageSwitcher{
+    margin-bottom: 1%;
+
+}
